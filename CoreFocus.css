@@ -1,4 +1,6 @@
-@import url('https://fonts.googleapis.com/css?family=Actor|Alegreya+Sans|Alegreya+Sans+SC|Bree+Serif');
+@import url('https://fonts.googleapis.com/css?family=Alegreya+Sans|Alegreya+Sans+SC|Cinzel');
+@import url('https://fonts.googleapis.com/css?family=Arapey|Secular+One');
+
 
 body {
     margin: 0px;
@@ -6,7 +8,7 @@ body {
 
 .V-Nav {
     display: flex;
-    background-color: #263a3a;
+    background: url("https://images.unsplash.com/photo-1522761862062-66f37ca4a847?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=5e4d4ddc84c1bb8d41d074537f7c9a22&auto=format&fit=crop&w=400&q=60");
     overflow: hidden;
 }
 
@@ -19,7 +21,7 @@ body {
 }
 
 .V-Nav a {
-    color: #317b92; 
+    color: #19424e; 
     text-decoration: none;
     font-family: "Alegreya Sans SC", serif;
     font-size: 28px;
@@ -32,28 +34,57 @@ body {
 }
 
 .V-Nav #linkPrime {
-    color: #f4f7c9;
-    font-family: "Bree Serif", serif;
+    color: white;
+    font-family: "Secular One", serif;
     font-weight: bold;
     margin-right: 500px;
 }
 
 .V-Nav #linkPrime:hover {
-    color: #d8f578;
+    color: #1e3f49;
+    font-weight: bolder;
     transition: 2s;
 }
 
 .JT {
     display: flex;
     justify-content: center;
-    background-color: #f4f7c9;
+    background-image: linear-gradient(to right top, #0f87b6, #4da8be, #86c6c7, #bee3d8, #f2fff5);
+    height: 500px;
 }
 
-.JT h1 {
+.JT div {
+    margin-top: 100px;
+    text-align: center;
+    /* background: #ffffffc4; */
+    background: url("https://images.unsplash.com/photo-1540202403-b7abd6747a18?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=b7c04f5a98155099992d8bb9cc37e387&dpr=1&auto=format&fit=max&w=500&q=60&cs=tinysrgb");
+    width: 500px;
+    height: 250px;
+}
+
+.JT div h1{
+    padding-top: 25px;
+    font-family: "Alegreya Sans SC", serif;
+    color: #235a70df;
     font-size: 50px;
-    font-family: "Actor", serif;
+} 
+
+
+.JT div:hover {
+    margin-top: 85px;
+    text-align: center;
+    /* background: #ffffffc4; */
+    background: url("https://images.unsplash.com/photo-1540202403-b7abd6747a18?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=b7c04f5a98155099992d8bb9cc37e387&dpr=1&auto=format&fit=max&w=500&q=60&cs=tinysrgb");
+    padding-top: 10px;
+    width: 500px;
+    height: 300px;
+    transition: 2s;
 }
 
-.JT h3 {
-    font-family: "Bree Serif", serif;
-}
+.JT div h1:hover {
+    padding-top: 55px;
+    font-family: "Alegreya Sans SC", serif;
+    color: #235a70df;
+    font-size: 50px;
+    transition: 2s;
+} 
