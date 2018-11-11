@@ -1,5 +1,59 @@
-@import url('https://fonts.googleapis.com/css?family=Actor|Alegreya+Sans|Alegreya+Sans+SC');
+@import url('https://fonts.googleapis.com/css?family=Actor|Alegreya+Sans|Alegreya+Sans+SC|Bree+Serif');
 
 body {
     margin: 0px;
+}
+
+.V-Nav {
+    display: flex;
+    background-color: #263a3a;
+    overflow: hidden;
+}
+
+.V-Nav ul {
+    list-style: none;
+}
+
+.V-Nav li {
+    display: inline;
+}
+
+.V-Nav a {
+    color: #317b92; 
+    text-decoration: none;
+    font-family: "Alegreya Sans SC", serif;
+    font-size: 28px;
+    margin-right: 20px;
+}
+
+.V-Nav a:hover {
+    color: white;
+    transition: 0.8s;
+}
+
+.V-Nav #linkPrime {
+    color: #f4f7c9;
+    font-family: "Bree Serif", serif;
+    font-weight: bold;
+    margin-right: 500px;
+}
+
+.V-Nav #linkPrime:hover {
+    color: #d8f578;
+    transition: 2s;
+}
+
+.JT {
+    display: flex;
+    justify-content: center;
+    background-color: #f4f7c9;
+}
+
+.JT h1 {
+    font-size: 50px;
+    font-family: "Actor", serif;
+}
+
+.JT h3 {
+    font-family: "Bree Serif", serif;
 }
