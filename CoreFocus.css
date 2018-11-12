@@ -88,3 +88,44 @@ body {
     font-size: 50px;
     transition: 2s;
 } 
+
+.Benefits {
+    display: flex;
+    justify-content: space-around;
+    background-image: linear-gradient(to left top, #f8f8f8, #b7d4ee, #44b9cb);
+}
+
+.Benefits div {
+    padding: 10px;
+    margin: 30px;
+    text-align: center;
+    background-color: #ffffffce;
+    border-radius: 5px;
+}
+
+.Benefits div h2 {
+    color: #20464d;
+    font-family: "Alegreya Sans", sans-serif;
+    font-size: 27px;
+    padding-bottom: 5px;
+    border-bottom: 3px solid #1c9c9c;
+}
+
+.Benefits div p {
+    color: #20464d;
+    font-family: "Arapey", serif;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+#Pro {
+    flex: 1;
+}
+
+#Mind {
+    flex: 1;
+}
+
+#Life {
+    flex: 1;
+}
