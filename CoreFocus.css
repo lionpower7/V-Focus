@@ -143,26 +143,35 @@ body {
 
 .Who {
     flex: 3;
-    color: white;
-    background-color: #19424e;
-    
+    color: #19424e;
+    background-image: linear-gradient(to right,#48d4e90e, #48d4e938, #44b9cb6c, #44b9cb57);
 }
 
 .Who h1 {
-    border-bottom: 10px double #1c9c9c;
-    padding-left: 20px;
+    color: #20464d;
+    background-image: linear-gradient(to right top, #2d84a762, #4da7be21, #86c6c7);
+    border-radius: 7px;
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin: auto;
+    margin-top: 10px;
+    width: 500px;
     font-size: 35px;
     font-family: "Alegreya Sans SC", sans-serif;
+    text-shadow: -1px 2px 4px rgba(255, 255, 255, 0.72);
 }
 
 .Who p {
     padding: 10px;
-    font-family: "Open Sans", sans-serif;
+    font-family: "Alegreya Sans SC", sans-serif;
+    font-size: 17px;
     font-weight: 700;
 }
 /* V-focus Name */
 #VN {
-    color: #1c9c9c;
+    color: #144c52;
+    font-size: 18px;
     font-weight: bolder;
 }
 
@@ -176,7 +185,7 @@ body {
 
 .Collab h1 {
     color: #1c9c9c;
-    font-family: "Secular One", serif;
+    font-family: "Alegreya Sans", sans-serif;
 }
 
 .Collab p {
