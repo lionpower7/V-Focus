@@ -21,7 +21,7 @@ body {
 }
 
 .V-Nav a {
-    color: #19424e; 
+    color: #19424e;
     text-decoration: none;
     font-family: "Alegreya Sans SC", serif;
     font-size: 28px;
@@ -67,7 +67,7 @@ body {
     font-family: "Alegreya Sans SC", serif;
     color: #235a70df;
     font-size: 50px;
-} 
+}
 
 
 .JT div:hover {
@@ -87,12 +87,13 @@ body {
     color: #235a70df;
     font-size: 50px;
     transition: 2s;
-} 
+}
 
 .Benefits {
     display: flex;
     justify-content: space-around;
-    background-image: linear-gradient(to right, #f8f8f8, #f8f8f8, #48d3e9, #48d3e9, #44b9cb, #44b9cb);
+    background-image: linear-gradient(to right, #293941, #2a3941, #2b3941,
+       #2c3940, #2d3940, #2e3a40, #2f3a41, #303b41, #323c42, #343d44, #353f45, #374046);
 }
 
 .Benefits div {
@@ -106,12 +107,11 @@ body {
 
 .Benefits div h2 {
     color: #20464d;
-    background-image: linear-gradient(to right top, #0f87b6, #4da8be, #86c6c7, #bee3d8, #f2fff5);
+    background-image: linear-gradient(to right,#48d4e90e, #48d4e938, #44b9cb6c, #44b9cb57);
     font-family: "Alegreya Sans", sans-serif;
     font-size: 27px;
     padding-top: 15px;
     padding-bottom: 10px;
-    border-bottom: 3px solid #1c9c9c;
     border-top-left-radius: 10px;
     border-bottom-right-radius: 10px;
     text-shadow: -1px 2px 4px rgba(255, 255, 255, 0.72);
@@ -149,7 +149,6 @@ body {
 
 .Who h1 {
     color: #20464d;
-    background-image: linear-gradient(to right top, #2d84a762, #4da7be21, #86c6c7);
     border-radius: 7px;
     text-align: center;
     padding-top: 15px;
@@ -180,7 +179,6 @@ body {
     text-align: center;
     padding: 5px 10px;
     font-family: "Alegreya Sans SC", sans-serif;
-    background-image: linear-gradient(to right top, #f8ffce, #f0ffca);
 }
 
 .Collab h1 {
@@ -206,4 +204,3 @@ body {
 .Collab a:visited {
     color: #1c9c9c;
 }
-
